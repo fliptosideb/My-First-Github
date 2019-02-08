@@ -10,12 +10,19 @@
     color: red 
     }
 #blue {
-    color :blue
+    color :blue !important
 }
 .greenheaders 
 {color :green
 }
-    </style> <!--write CSS code-->
+.sizing {
+    width: 10vw;
+    height: 10vh
+}
+.color {
+    background-color: pink
+}
+    </style> <!--write CSS code and !important forces a style-->
 </head>
 <body>
     <h1>Big Text</h1> <!--headers are block elements-->
@@ -51,5 +58,8 @@
 <h1 style="color: black">Hello again world</h1> <!--priority over CSS above-->
 <h1 id="blue">Not red</h1>  <!--id so style is not affected in CSS above, top priority-->
 <h1 class="greenheaders">class</h1>
+<div class="sizing color">
+<p>classes</p>
+</div> <!--two classes-->
 </body>
 </html>
