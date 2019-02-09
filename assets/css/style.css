@@ -1,3 +1,32 @@
 h1 {
-    color: red
+    color: red;
+    border: 2px solid black;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    display: inline-block
+}
+
+#red {
+    margin-right: 200px;
+    background-color: red;
+}
+
+#blue {
+    margin-right: -20px;
+    background-color: blue;
+}
+
+#yellow {
+    padding-top: 500px;
+    background-color: yellow;
+}
+
+#green {
+    padding-bottom: 50px;
+    background-color: green;
+    border: 10px solid black
+
 }
