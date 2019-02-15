@@ -1,0 +1,24 @@
+/* the asterisk applies to everywhere. you can place this on the css reset file */
+* {
+
+box-sizing: border-box;
+
+}
+#myDiv {
+    width: 500px;
+    height: 500px;
+    border: 50px solid green;
+background-color: red;
+
+}
+
+/* box-sizing keeps the boxes the same size with different padding. use this everywhere */
+#myDiv2 {
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 10px solid black;
+background-color: red;
+/* box-sizing: border-box; */
+
+}
