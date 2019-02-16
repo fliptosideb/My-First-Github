@@ -1,0 +1,55 @@
+#myDiv {
+width: 250px;
+height: 250px;
+background-color: red;
+margin: auto
+
+}
+
+#myDiv:hover {
+
+background-color: green;
+}
+
+#myDiv:active {
+background-color: black;
+
+}
+
+a:hover {
+    color: pink
+}
+
+a:active {
+    color: green
+}
+
+a:visited {
+    color: orange
+}
+
+p {
+    margin-bottom: 10px
+}
+
+/* 2n-1 gives us every other red */
+
+/* p:nth-child(2n-1) {
+color: red
+} */
+
+/* 2n-1 gives us every other red */
+
+p:nth-of-type(2n-1) {
+    color: red
+}
+
+/* fonts.google.com */
+
+p {
+        font-family: 'Libre Barcode 39 Text', cursive;
+} 
+
+p:nth-of-type(2n-1) {
+    font-family: 'Coiny', cursive;
+}

@@ -1,0 +1,65 @@
+#myDiv {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    animation: hotdog 5s infinite;
+    -webkit-animation: hotdog 5s infinite;
+    /*transition: height 4s, width 2ms;
+    -webkit-transition: height 4s, width 2ms;
+    -moz-transition: height 4s, width 2ms;
+    -ms-transition: height 4s, width 2ms;
+    -o-transition: height 4s, width 2ms;
+    */
+}
+
+#someDiv {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: hotdog 10s;
+    -webkit-animation: hotdog 10s;
+}
+@keyframes hotdog {
+    0% { margin-top: 10px; }
+    25% { margin-top: 50px; }
+    50% { margin-top: 80px; margin-right: 50px; background-color: blue}
+    75% { margin-top: 75px; }
+    100% { margin-top: 90px; margin-left: 30px; background-color: green}
+}
+
+/* #myDiv:hover {
+    height: 400px;
+}
+
+#myDiv:active {
+
+height: 400px;
+} */
+
+/* @media only screen and (max-width: 600px) and (min-width: 500px) {
+#myDiv {
+background-color: green;
+height: 100px;
+width: 100px;
+
+}
+}
+
+@media only screen and (max-width: 500px) {
+    #myDiv {
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    
+    }
+    } */
+
+/* @media only screen and (min-width: 600px) {
+#myDiv {
+background-color: green;
+height: 100px;
+width: 100px;
+
+}
+} */
